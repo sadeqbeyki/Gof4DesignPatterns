@@ -11,7 +11,8 @@ using DesignPatterns.Adapter.Adapters;
 IPrinter printer = new ObjectAdapter();
 
 Console.WriteLine("Type Something ... \n");
-var textForPrint = Console.ReadLine();
+var textForPrint = Console.ReadLine(); 
 printer.Print(textForPrint);
 
 
+ 
