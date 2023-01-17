@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Composite;
+﻿namespace DP.Structural.Composite.ExampleA;
 
 //Composite step 3
 public class Group : INode

@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Composite;
+﻿namespace DP.Structural.Composite.ExampleA;
 
 //Composite step 1
 public interface INode

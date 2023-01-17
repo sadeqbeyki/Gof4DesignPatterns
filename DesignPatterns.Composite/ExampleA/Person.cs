@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Composite;
+﻿namespace DP.Structural.Composite.ExampleA;
 //step 1 //Composite step 2 (inheriate INode)
 public class Person : INode
 {
