@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesignPatterns.Facade.ExternalServices;
+﻿namespace DesignPatterns.Facade.ExampleA;
 
 public class TempratureFacade
 {
@@ -13,10 +7,10 @@ public class TempratureFacade
         var zoneFinder = new ZoneFinder();
         var zone = zoneFinder.GetZone(postalCode);
         var tempratureService = new TempratureService();
-        var tempFahrenheit = tempratureService.GetTemp(zone);
+        var tempFahrenheit = tempratureService.GetFahrenheitTemp(zone);
         var tempConvertor = new TempratureConvertor();
-        var tempCentigrade = tempConvertor.GetCentigrade(tempFahrenheit);
+        var tempCentigrade = tempConvertor.GetCentigradeTemp(tempFahrenheit);
         return tempCentigrade;
     }
-
 }
+

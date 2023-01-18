@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Facade.ExternalServices;
+﻿namespace DesignPatterns.Facade.ExampleA;
 
 public class ZoneFinder
 {
@@ -8,3 +8,4 @@ public class ZoneFinder
         return 1;
     }
 }
+
