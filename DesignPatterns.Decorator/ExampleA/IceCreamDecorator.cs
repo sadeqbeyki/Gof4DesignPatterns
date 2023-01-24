@@ -1,21 +1,20 @@
-﻿
-namespace DesignPatterns.Decorator;
+﻿namespace DesignPatterns.Decorator.ExampleA;
 public class IceCreamDecorator : IceCream
 {
-    private readonly IceCream iceCream;
+    private readonly IceCream _iceCream;
 
     public IceCreamDecorator(IceCream iceCream)
     {
-        this.iceCream = iceCream;
+        _iceCream = iceCream;
     }
 
     public override string GetName()
     {
-        return iceCream.GetName();
+        return _iceCream.GetName();
     }
 
     public override int GetPrice()
     {
-        return iceCream.GetPrice();
+        return _iceCream.GetPrice();
     }
 }

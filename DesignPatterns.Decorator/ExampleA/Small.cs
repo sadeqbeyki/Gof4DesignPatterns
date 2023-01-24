@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Decorator;
+﻿namespace DesignPatterns.Decorator.ExampleA;
 
 public class Small : IceCream
 {

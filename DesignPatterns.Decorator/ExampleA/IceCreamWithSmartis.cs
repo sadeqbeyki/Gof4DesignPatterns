@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Decorator;
+﻿namespace DesignPatterns.Decorator.ExampleA;
 
 public class IceCreamWithSmartis : IceCreamDecorator
 {
@@ -12,6 +12,6 @@ public class IceCreamWithSmartis : IceCreamDecorator
     }
     public override int GetPrice()
     {
-        return base.GetPrice() * 20; 
+        return base.GetPrice() * 20;
     }
 }
