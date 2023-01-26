@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Iterator;
+﻿namespace DP.Behavioral.Iterator.ExampleA;
 
 //step 1
 public class Person

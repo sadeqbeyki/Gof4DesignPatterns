@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Iterator;
+﻿namespace DP.Behavioral.Iterator.ExampleA;
 //Iterator Step 7 (new collection for Queue)
 public class PersonQueue : IMyEnumerable
 {

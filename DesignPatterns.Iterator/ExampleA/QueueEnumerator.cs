@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Iterator;
+﻿namespace DP.Behavioral.Iterator.ExampleA;
 
 //Iterator Step 8
 public class QueueEnumerator : IMyEnum
