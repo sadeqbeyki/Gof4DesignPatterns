@@ -1,5 +1,4 @@
-﻿
-namespace DesignPatterns.Prototype;
+﻿namespace DP.Creational.Prototype.ExampleA;
 
 //prototype way2 and fix: ICloneable step 3
 public class LargeObject : ICloneable<LargeObject>
