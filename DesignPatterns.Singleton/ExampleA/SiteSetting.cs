@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Singleton;
+﻿namespace DesignPatterns.Singleton.ExampleA;
 
 public class SiteSetting
 {
