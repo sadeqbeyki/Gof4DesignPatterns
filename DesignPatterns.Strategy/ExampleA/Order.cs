@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Strategy;
+﻿namespace DesignPatterns.Strategy.ExampleA;
 public class Order
 {
     public Order(int price, CalculatePrice calculatePrice)
