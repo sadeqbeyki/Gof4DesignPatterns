@@ -1,6 +1,6 @@
-﻿namespace DesignPatterns.TemplateMethod;
+﻿namespace DesignPatterns.TemplateMethod.ExampleA;
 
-public class Vegetable : PizzaCooker
+public class Pepperoni : PizzaCooker
 {
     public override void PrepareBread()
     {
@@ -9,6 +9,6 @@ public class Vegetable : PizzaCooker
 
     public override void PrepareIngridients()
     {
-        //buy Vegetable
+        //buy pepperoni things
     }
 }

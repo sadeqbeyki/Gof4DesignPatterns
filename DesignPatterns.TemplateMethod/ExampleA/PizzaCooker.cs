@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.TemplateMethod;
+﻿namespace DesignPatterns.TemplateMethod.ExampleA;
 
 public abstract class PizzaCooker
 {
