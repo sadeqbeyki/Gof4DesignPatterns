@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Proxy;
+﻿namespace DP.Structural.Proxy.ExampleA;
 //step 1
 public class Person
 {
