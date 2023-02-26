@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.Creational.FactoryMethod
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other", "Other", "{B7BBCB59-6336-4F06-97AA-830C192A3D29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.ServiceLocator", "DP.ServiceLocator\DP.ServiceLocator.csproj", "{49A022FA-2922-4CCB-BA51-A2EE86C8DA2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.ServiceLocator", "DP.ServiceLocator\DP.ServiceLocator.csproj", "{49A022FA-2922-4CCB-BA51-A2EE86C8DA2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.Behavioral.Command", "DP.Behavioral.Command\DP.Behavioral.Command.csproj", "{689F05D0-01C0-448A-89BC-3E790379303C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -143,6 +145,10 @@ Global
 		{49A022FA-2922-4CCB-BA51-A2EE86C8DA2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49A022FA-2922-4CCB-BA51-A2EE86C8DA2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49A022FA-2922-4CCB-BA51-A2EE86C8DA2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689F05D0-01C0-448A-89BC-3E790379303C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689F05D0-01C0-448A-89BC-3E790379303C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689F05D0-01C0-448A-89BC-3E790379303C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689F05D0-01C0-448A-89BC-3E790379303C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

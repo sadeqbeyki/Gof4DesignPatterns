@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.Adapter.Adapters;
 //step 1
-public interface IPrint
+public interface IPrinter
 {
     void Print(string input);
 }

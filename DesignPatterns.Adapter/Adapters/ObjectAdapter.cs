@@ -1,7 +1,7 @@
 ﻿namespace DesignPatterns.Adapter.Adapters;
 
 //Adapter Step 1
-public class ObjectAdapter : IPrint
+public class ObjectAdapter : IPrinter
 {
     private readonly ScreenPrinter _screenPrinter;
 

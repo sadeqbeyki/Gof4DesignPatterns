@@ -9,11 +9,11 @@ Console.WriteLine("Type Something... ");
 var text = Console.ReadLine();
 
 //without adapter
-IPrinter printer = new Printer();
+DesignPatterns.Adapter.ExampleA.IPrinter printer = new Printer();
 printer.Print(text);
 
 //with adapter
-IPrinter printerAdapter = new PrintAdapter();
+DesignPatterns.Adapter.ExampleA.IPrinter printerAdapter = new PrintAdapter();
 printerAdapter.Print(text);
 #endregion 
 
@@ -40,7 +40,7 @@ Console.WriteLine(target.GetRequest());
 //IPrinter printer = new InheritanceAdapter();
 
 //Adapter Step 2
-IPrint printer = new ObjectAdapter();
+DesignPatterns.Adapter.Adapters.IPrinter printer = new ObjectAdapter();
 
 Console.WriteLine("Type Something ... \n");
 var textForPrint = Console.ReadLine();
