@@ -1,4 +1,6 @@
-﻿class Program
+﻿using DP.Structural.Bridge;
+
+class Program
 {
     static void Main(string[] args)
     {

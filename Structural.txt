@@ -1,0 +1,12 @@
+***
+Adaptor **
+
+**
+Composite
+Decorator
+Facade
+
+*
+Bridge
+Flyweight 
+Proxy

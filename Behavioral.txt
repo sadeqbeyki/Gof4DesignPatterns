@@ -1,0 +1,15 @@
+***
+Command
+Iterator
+Observer **
+Strategy *
+
+**
+Mediator
+State *
+Template Method
+
+*
+Chain of Responsibility 
+Memento
+Visitor
