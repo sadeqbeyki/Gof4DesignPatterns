@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Flyweight;
+﻿namespace DP.Structural.Flyweight.ExampleA;
 
 //Step 1
 public abstract class Alphabet
