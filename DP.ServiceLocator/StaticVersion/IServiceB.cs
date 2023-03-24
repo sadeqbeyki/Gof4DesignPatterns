@@ -1,6 +1,6 @@
 ﻿namespace DP.ServiceLocator.StaticVersion;
 
-internal interface IServiceA
+internal interface IServiceB
 {
     void UsefulMethod();
 }
