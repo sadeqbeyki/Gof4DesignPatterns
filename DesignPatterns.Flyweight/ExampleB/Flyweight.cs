@@ -1,5 +1,6 @@
 ﻿// Use Json.NET library, you can download it from NuGet Package Manager
 using Newtonsoft.Json;
+using System.Net.Http.Json;
 
 namespace DP.Structural.Flyweight.ExampleB;
 
@@ -18,7 +19,7 @@ public class Flyweight
 
     public void Operation(Car uniqueState)
     {
-        string s = JsonConvert.SerializeObject(this._sharedState);
+        string s = JsonContent.SerializeObject(this._sharedState);
         string u = JsonConvert.SerializeObject(uniqueState);
         Console.WriteLine($"Flyweight: Displaying shared {s} and unique {u} state.");
     }
@@ -87,19 +88,6 @@ public class FlyweightFactory
             Console.WriteLine(flyweight.Item2);
         }
     }
-}
-
-public class Car
-{
-    public string Owner { get; set; }
-
-    public string Number { get; set; }
-
-    public string Company { get; set; }
-
-    public string Model { get; set; }
-
-    public string Color { get; set; }
 }
 
 
